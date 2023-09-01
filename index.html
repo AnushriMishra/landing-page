@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Page</title>
+<style type="text/css">
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    header{
+        width:100%;
+        height: 90vh;
+        background: url('img/photo.jpg');
+        background-size: cover;
+        background-position-x: center;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        font-size: 1.5em;
+        color: rgb(182, 10, 10);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .m1{
+        font-size: 3.7em;
+    }
+    .m2{
+        max-width: 650px;
+        position:absolute;
+        top: 40%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+    }
+    .m3{
+        font-size: 0.7em;
+    }
+    .btn{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: rgb(11, 73, 17);
+        border-radius: 8px;
+        display:inline-block;
+    }
+    .column1 {
+    
+        float: left;        
+        margin-top: 50px;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding-left: 20%;
+        font-family: sans-serif;
+        line-height: 20px;
+    }
+    .column2{
+        float: right;
+        width: 50%;
+        margin-top: 50px;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        line-height: 20px;
+        padding-left: 5%;
+    }
+    .row:after {
+        
+        content: "";
+        display: table;
+        clear: both;
+        
+    }
+    .col{
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        font-family: sans-serif;
+        
+        
+    }
+    
+    .a1{
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-family: sans-serif;
+    }
+    .a2{
+        background-color: rgb(230, 237, 245);
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .c1 {
+    
+        float: left;    
+        width: 70%;    
+        margin-top: 10px;
+        background-color: rgb(230, 237, 245);
+        padding-left: 15%;
+        padding-bottom: 100px;
+    }
+   .c2{
+        float: right;
+        width: 30%;
+        margin-top: 50px;
+        background-color: rgb(230, 237, 245);
+        font-family: sans-serif;
+        line-height: 20px;
+        padding-right: 10%;
+        padding-bottom: 100px;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="logo"><i class="fa fa-gbp" style="font-size:30px; color:rgb(182, 10, 10);"></i>   ExpressVPN</div>
+            <div>
+                <a href="#">Register</a>
+            </div>
+        </nav>
+        <section class="m2">
+            <div class="m1">The VPN that just works</div><br>
+            <p>Go further with the #1 trusted leader in VPN</p><br>
+            <button class="btn">Get ExpressVPN</button><br><br>
+            <p class="m3">30-DAYS MONEY-BACK GUARANTEE</p>
+        </section>
+    </header>
+    <div class="row" >
+        <div class="column1"  >
+            <img src="img/pic3.png" style="height:200px; width: 250px;">
+        </div>
+        <div class="column2">
+            <h1>Secure access, </h1></br><h1>worldwide</h1></br>
+            <p>Connect reliably from anywhere, to anywhere. Our network of </p>
+            <p>high-speed servers across 94 countries puts you in control.</p></br>
+            <button class="btn">Get ExpressVPN</button>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="column1">
+                <h1 style="padding-top: 65px;">One Click to a safer </h1><br>
+                <h1>internet</h1><br>
+                <p>Going online does not have to mean being exposed.</p>
+                <p>Whether you are shopping from your desk or just</p>
+                <p>connecting at a cafe, keep your personal information</p>
+                <p>more private and secure.</p>
+        </div>
+        <div class="column2">
+            <img src="img/pic.png" style="height:350px; width: 400px;">
+        </div>
+    </div>
+    <div class="row" >
+        <div class="column1"  >
+            <img src="img/pic2.jpg" style="height:350px; width: 350px;">
+        </div>
+        <div class="column2">
+            <h1 style="padding-top: 65px;">Use Express VPN on </h1></br><h1>every device</h1></br>
+            <p>Phone, tablet, computer, router-no matter where you are of </p>
+            <p>what devoces you are using, a single ExpressVPN subscription</p>
+            <p>has got you covered</p><br>
+            <i class="fa fa-apple"></i>
+            <i class="fa fa-windows"></i>
+            <i class="fa fa-linux"></i>
+            <i class="fa fa-lastfm"></i><br>
+            <a href="#">See all apps ></a><br>
+            <button class="btn" style="margin-top: 20px;">Get ExpressVPN</button>
+        </div>
+    </div>  
+    <div class="row" style="padding-top: 80px;">
+        <div class="col" >
+            <img src="img/pic4.png" style="height:150px; width: 200px;"><br>
+            <h2>Stronger data</h2>
+            <h2>protection</h2><br>
+            <p>Take charge of your online privacy and</p>
+            <p>security with best inclass exception</p>
+        </div>
+        <div class="col">
+            <img src="img/pic5.jpg" style="height:150px; width: 200px;"><br>
+            <h2>Works seamlessly</h2>
+            <h2>everywhere</h2><br>
+            <p>Experience the internet the way it's meant to</p>
+            <p>be. On the go, or on your couch</p>
+        </div>
+        <div class="col">
+            <img src="img/pic6.jpg" style="height:150px; width: 200px;"><br>
+            <h2>Lightening-quick</h2>
+            <h2> connectivity</h2><br>
+            <p>Our VPN network is built for speed, powered</p>
+            <p>by next generation technology.</p>
+        </div>
+    </div>  
+    <div class="a1">
+        <a href="#">See more advantages ></a>
+    </div> 
+
+    <div class="a2">
+        <h1 >Ultra fast servers around the globe</h1><br>
+        <div class="row">
+            <div class="c1">
+                <img src="img/pic7.webp" style="height:350px; width: 800px; padding-right: 150px;">
+            </div>
+            <div class="c2">
+                <p style="font-size: 60px;">160</p><br>
+                <p>locations</p><br>
+                <p style="font-size: 60px;">94</p><br>
+                <p>countries</p><br>
+                <p style="font-size: 60px;">94</p><br>
+                <p>unlimited</p>
+                <p>bandwidth</p>
+            </div>
+        </div >
+        <a href="#">See our full list of VPN server locations ></a>
+    </div>    
+</body>
+</html>
